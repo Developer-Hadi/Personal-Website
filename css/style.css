@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass', ;
+}
+/* =====================
+====INTRODUCTION CSS====
+======================= */
+#introduction{
+    background: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section{
+    height: 700px;
+    padding: 50px;
+    overflow: hidden;
+}
+.half_width{
+    max-width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+img{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.intro_left{
+    padding-top: 160px;
+    padding-left: 90px;
+}
+h1{
+    font-size: 46px;
+}
+.hello{
+    font-size: 40px;
+}
+h1.name{
+    color: #EA3C8E;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #444;
+    padding: 20px 0;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 16px;
+    color: #fff;
+    background: #EA3C8E;
+    border: 1px solid #EA3C8E;
+    border-radius: 3px;
+    transition: .4s;
+}
+.btn:hover{
+    border: 1px solid #EA3C8E;
+    background: #fff;
+    color: #EA3C8E;
+}
+
+
+/* =====================
+====BIOGRAPHY CSS=======
+======================= */
+
+#biography{
+    background: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#biography h1{
+    padding-top: 160px;
+    font-weight: 500;
+}
+
+/* =====================
+====LATEST WORK CSS=====
+======================= */
+#work{
+    background: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#work h1{
+    text-align: center;
+    padding-top: 50px;
+}
+#work ul{
+    padding: 50px;    
+}
+#work ul li{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    list-style-type: none;
+}
+#work ul li img{
+    width: 100%;
+    border-radius: 10px;
+    transition: .4s;
+}
+#work ul li:hover img{
+   transform: scale(1.2);
+    border-radius: 10px;
+}
+
+/* =====================
+======CLIENT CSS========
+======================= */
+.client_area{
+    text-align: center;
+}
+
+.client_area h1{
+    padding-bottom: 50px;
+}
+
+h5{
+    font-size: 24px;
+    margin-bottom: -15px;
+}
+.text{
+    padding: 0 450px;
+}
